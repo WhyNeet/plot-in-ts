@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graph</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 1rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+      button.export {
+        appearance: none;
+        padding: .4rem 1rem;
+        border: none;
+        border-radius: 4px;
+        background-color: #007aff;
+        color: #fff;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas">Canvas is not supported in your browser.</canvas>
+    <br />
+    <button id="export" class="export">Export</button>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
